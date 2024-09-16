@@ -6,7 +6,7 @@ const isDate = ( value ) => {
     }
 
     const date = moment( value );
-    if( date.isValid() ){   
+    if( date.isValid() ){
         return true;
     }else{
         return false;
