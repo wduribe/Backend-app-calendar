@@ -46,7 +46,7 @@ const updateEvent = async (req, res) => {
         if (!event) {
             return res.status(404).json({
                 ok: false,
-                messague: 'This id doesn´t exist',
+                message: 'This id doesn´t exist',
             });
         };
         //Validando que sea el mismo usuario que crea el evento, el que lo edite
